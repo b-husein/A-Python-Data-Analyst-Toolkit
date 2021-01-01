@@ -10,5 +10,16 @@ Course sections:
 
 - Advanced Python topics
 
+- Careers
+
+- Scripting
+
+- Data scraping
+
+- Automation
+
+- Web development 
+
+- ML + Data science 
 
 """
