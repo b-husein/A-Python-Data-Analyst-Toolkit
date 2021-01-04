@@ -3,6 +3,10 @@
 - Installing this platform installs Python, the Jupyter notebook app; and additional libraries. 
 - The following are the steps for installation: 
 
-- URL: 
+- URL: https://www.anaconda.com/products/individual
+- Download and run the installation
+
+- After installation, open the Jupyter app;
+
 
 """
