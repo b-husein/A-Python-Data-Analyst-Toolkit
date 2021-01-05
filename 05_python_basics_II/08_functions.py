@@ -45,8 +45,20 @@
 #ANONYMOUS OR LAMBDA FUNCTIONS
 
 ''' 
-- These functions are defined by 
+- These functions are defined by using the lambda keyword. They are single-expression functions and provide
+- a compact way of defining a function without binding the function object to a name. The reason these functions
+- are called "anonymous" is that they do not need a name. Consider a following example where we use lambda function
+- to calculate the sum of two numbers:
 
+    #CODE:
 
+    (lambda x, y:(x + y))(5, 4)
+
+    #OUTPUT: 9
+
+- The syntax of anonymous function: It starts with the lambda keyword, followed by parameters ('x' and 'y' in our case)
+- then comes the colon ( : ) after which there is an expression (x + y) that is evaluated and returned. There is no need 
+- to mention a return statement since there is an implicit return in such a function. Notice that the function also doesn't have a name.
 
 '''
+
