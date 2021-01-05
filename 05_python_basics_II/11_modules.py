@@ -28,6 +28,24 @@
     calculate the sin and cosine of an angle (given in degrees).
 
     # CODE: 
+    import math
+    def sin_angle(x):
+        y=math.radians(x)  
+        return math.sin(y)
+    def cos_angle(x):
+        y=math.radians(x)
+        return math.cos(y)
+
+    3. Save the file. This directory, where the file should be saved, is the same
+    directory where Python runs. You can obtain the current working directory using
+    the following code:
+
+    # CODE: 
+    import os 
+    os.getcwd()
+
+    4. Using the import statement, import and use the module you have just created.
+
 
 
 
