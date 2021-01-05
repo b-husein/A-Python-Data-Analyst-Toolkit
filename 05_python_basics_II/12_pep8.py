@@ -54,6 +54,8 @@
 
         from x import y
 
+    6. ENCODING: The encoding format to be used for writing code in Python 3 is UTF-8;
+
 
 
 
