@@ -61,7 +61,53 @@
 
 
     - REMOVING ELEMENTS FROM A LIST:
-    - 
+    - There are multiple ways of adding an item to a list, but there are also multiple ways to remove values from a list.
+    - Each of the methods below can remove only a single item at a time:
+
+        * Del
+        - the del keyword deletes an item at a given location.
+
+            #CODE: 
+            del colors[1]
+            #removes the second item of the 'colors' list
+
+        * Remove 
+        - This method is used when the name of the item to be removed is known, but not its position.
+
+            #CODE:
+            colors.remove('white')
+            #removes the item 'white' from the 'colors' list
+
+        * Pop
+        - This method removes and returns the last item in the list.
+
+            #CODE:
+            colors.pop()
+            #removes the last item and displays the item removed.
+
+    - FINDING THE INDEX (LOCATION) OF AN OBJECT IN THE LIST
+    - The index method is used to find out the location (or index) of a specific item or value in a list.
+
+            #CODE
+            colors.index('violet')
+
+            #OUTPUT: 0
+
+    - CALCULATING THE LENGTH OF A LIST
+    - the len function returns the count of the number of items in a list.
+    - The name of the list is passed as an argument to this function.
+    - Note that len is a function, not a method.
+    - A method can be used only with an object.
+
+            #CODE
+            len(colors)
+
+            #OUTPUT: 7
+
+    - SORTING A LIST
+    - The sort method sorts the values in the list, in ascending or descending order. 
+    
+
 
 
 
